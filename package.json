@@ -1,0 +1,10 @@
+{
+  "name": "shanathani-gomata-samiti-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix sanatani-gomata-samiti run dev",
+    "build": "npm --prefix sanatani-gomata-samiti run build",
+    "start": "npm --prefix sanatani-gomata-samiti run start"
+  }
+}
