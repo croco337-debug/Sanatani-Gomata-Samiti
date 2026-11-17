@@ -1,11 +1,39 @@
+# Dependencies
 node_modules/
 **/node_modules/
+jspm_packages/
+
+# Next.js build output
 .next/
 **/.next/
-.env*.local
+out/
+build/
+dist/
+
+# Environment variables
 .env
-**/.env*.local
+.env.*
+.env*.local
 **/.env
+**/.env.*
+**/.env*.local
+!.env.example
+!**/.env.example
+
+# Logs
+logs
 *.log
-.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# TypeScript
 *.tsbuildinfo
+next-env.d.ts
+
+# Misc
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
